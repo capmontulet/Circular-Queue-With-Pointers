@@ -3,7 +3,7 @@
 #define ARSZ 10
 
 int main(void){
-	int array[ARSZ]={0}, new = ARSZ -1,old = ARSZ -1, total = 0, maxValues = 0, aveOverNValues = 0, newValue = 0, numCtr = 0;
+	int array[ARSZ]={0}, new = ARSZ -1,old = ARSZ -1, total = 0, maxValues = 0, aveOverNValues = 0, newValue = 0;
     int *pOld= &old, *pNew = &new, *pArray = array;
     printf("Enter the number of values to be averaged over: ");
     scanf("%d", &maxValues);
